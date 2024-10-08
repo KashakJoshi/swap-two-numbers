@@ -1,0 +1,11 @@
+int a,b,c;
+    printf("Enter two numbers :");
+    scanf("%d %d", &a, &b);
+    
+    c=a;
+    a=b;
+    b=a;
+    
+    printf("After swapping values a = %d, an b = %d", a,b);
+
+    return 0;
